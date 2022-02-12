@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="space">
+        <div class="planet-area">
+            <img src="Img/rocket.png" class="rocket" alt="rocket" id="rocket">
+            <img src="Img/mars.png" class="planet" alt="planet">
+        </div>
+        <div class="control-panel">
+            <div class="control-panel__inner">
+                <input type="password" id="text" size="50" placeholder="Password required for access">
+                <input type="button" id="pwdBtn" value="ok" class="button">
+                <div class="check-buttons">
+                    <label for="0"><input type="checkbox" id="0" name="c01" value="0"></label>
+                    <label for="1"><input type="checkbox" id="1" name="c02" value="1"></label>
+                    <label for="2"><input type="checkbox" id="2" name="c03" value="2"></label>
+                    <label for="3"><input type="checkbox" id="3" name="c04" value="3"></label>
+                    <label for="4"><input type="checkbox" id="4" name="c05" value="4"></label>
+                    <label for="5"><input type="checkbox" id="5" name="c06" value="5"></label>
+                </div>
+                <div class="levers">
+                    <label><input type="range" id="lvr1" name="lever01" min="0" max="100"></label>
+                    <label><input type="range" id="lvr2" name="lever02" min="0" max="100"></label>
+                    <label><input type="range" id="lvr3" name="lever03" min="0" max="100"></label>
+                    <label><input type="range" id="lvr4" name="lever04" min="0" max="100"></label>
+                    <label><input type="range" id="lvr5" name="lever05" min="0" max="100"></label>
+                </div>
+                <input id="launch" type="submit" value="launch" class="button" style="border-radius: 50%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
